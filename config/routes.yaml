@@ -1,0 +1,18 @@
+index:
+    path: index
+    controller: App\Controller\HomeController::index
+registration:
+    path: register
+    controller: App\Controller\RestrationController::index
+security:
+    path: login
+    controller: App\Controller\SecurityController::index
+quiz:
+    path: quiz
+    controller: App\Controller\QuizzController::index
+parents:
+    path: parents
+    controller: App\Controller\HomeController::index
+cgu:
+    path: cgu
+    controller: App\Controller\HomeController::cgu
